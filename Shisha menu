@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shisha Menu</title>
+<style>
+  body { font-family: Arial, sans-serif; background-color: #f5f0e6; color: #333; margin: 0; padding: 0; }
+  header { background-color: #a83232; color: white; text-align: center; padding: 20px 0; }
+  h1 { margin: 0; font-size: 2em; }
+  .menu-section { padding: 20px; }
+  .menu-section h2 { color: #8b0000; border-bottom: 2px solid #a83232; padding-bottom: 5px; }
+  .item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dashed #ccc; }
+  .item-name { font-weight: bold; }
+  .mixes { font-style: italic; color: #555; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Shisha Menu</h1>
+</header>
+
+<div class="menu-section">
+  <h2>Premium Shisha</h2>
+  <div class="item">
+    <div>
+      <div class="item-name">Royal Mint</div>
+      <div class="mixes">Mint + Lemon</div>
+    </div>
+    <div>$20</div>
+  </div>
+  <div class="item">
+    <div>
+      <div class="item-name">Exotic Fruit</div>
+      <div class="mixes">Mango + Passion Fruit</div>
+    </div>
+    <div>$22</div>
+  </div>
+  <div class="item">
+    <div>
+      <div class="item-name">Citrus Twist</div>
+      <div class="mixes">Orange + Lemon + Mint</div>
+    </div>
+    <div>$21</div>
+  </div>
+</div>
+
+<div class="menu-section">
+  <h2>Classic Shisha</h2>
+  <div class="item">
+    <div>
+      <div class="item-name">Double Apple</div>
+      <div class="mixes">Apple + Cinnamon</div>
+    </div>
+    <div>$15</div>
+  </div>
+  <div class="item">
+    <div>
+      <div class="item-name">Grape</div>
+      <div class="mixes">Red Grape</div>
+    </div>
+    <div>$15</div>
+  </div>
+  <div class="item">
+    <div>
+      <div class="item-name">Lemon</div>
+      <div class="mixes">Fresh Lemon</div>
+    </div>
+    <div>$14</div>
+  </div>
+</div>
+
+<div class="menu-section">
+  <h2>Lady’s Shisha</h2>
+  <div class="item">
+    <div>
+      <div class="item-name">Rose Delight</div>
+      <div class="mixes">Rose + Vanilla</div>
+    </div>
+    <div>$18</div>
+  </div>
+  <div class="item">
+    <div>
+      <div class="item-name">Berry Bliss</div>
+      <div class="mixes">Strawberry + Blueberry</div>
+    </div>
+    <div>$18</div>
+  </div>
+  <div class="item">
+    <div>
+      <div class="item-name">Pink Lemonade</div>
+      <div class="mixes">Lemon + Raspberry</div>
+    </div>
+    <div>$17</div>
+  </div>
+</div>
+
+</body>
+</html>
